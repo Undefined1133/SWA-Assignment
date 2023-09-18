@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Table Example</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <a href="createData.html">
+        <button class="custom-button">Go to Another Page</button>
+      </a>
+  <h1>Table</h1>
+  <div class="cities">
+    <h3 class="city" data-city="Aarhus">Aarhus</h3>
+    <h3 class="city" data-city="Horsens">Horsens</h3>
+    <h3 class="city" data-city="Copenhagen">Copenhagen</h3>
+  </div>
+
+  <div class="weather-table-container">
+    <table border="1" class="wind-table">
+        <caption>Wind Forecast</caption>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>From To</th>
+                <th>Directions</th>
+                <th>Unit</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+<div class="weather-table-container">
+  <table border="1" class="precipitation-table">
+      <caption>Precipitation Forecast</caption>
+      <thead>
+          <tr>
+              <th>Time</th>
+              <th>From To</th>
+              <th>Types</th>
+              <th>Unit</th>
+          </tr>
+      </thead>
+      <tbody>
+      </tbody>
+  </table>
+</div>
+<div class="weather-table-container">
+  <table border="1" class="temperature-table">
+      <caption>Temperature Forecast</caption>
+      <thead>
+          <tr>
+              <th>Time</th>
+              <th>From To</th>
+              <th>Unit</th>
+          </tr>
+      </thead>
+      <tbody>
+      </tbody>
+  </table>
+</div>
+<div class="weather-table-container">
+    <table border="1" class="cloud-table">
+        <caption>Cloud coverage</caption>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>From To</th>
+                <th>Unit</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+  </div>
+  <div id="min-temperature">Minimum temperature for the last day: </div>
+  <div id="max-temperature">Maximum temperature for the last day: </div>
+  <div id="max-precipitation">Total precipitation for the last day: </div>
+  <div id="avg-wind-speed">Average wind speed for the last day: </div>
+
+
+
+  <script src="city-click-listener.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+
+</body>
+</html>

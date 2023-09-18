@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(230, 203, 255);
+}
+h1 {
+    color: rgb(133, 96, 165);
+    font-size: 70px;
+    text-align: center;
+}
+   h2{
+    text-align: left;
+    width: 50%;
+    color: rgb(221, 130, 221);
+    text-decoration: underline; }
+table {
+    width: 50%;
+    height: 100px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgb(238, 182, 247);
+    color: rgb(128, 83, 128);
+    font-style: oblique;
+    font-size: 30px;
+    font-weight: bold;
+}
+td {
+    text-align: center;
+    }
+
+.cities {
+  text-align: center;
+}
+
+.cities h3 {
+  margin: 20px;
+  cursor: pointer;
+
+}
+
+#min-temperature,
+#max-temperature,
+#max-precipitation,
+#avg-wind-speed {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(128, 83, 128);
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid rgb(128, 83, 128);
+  border-radius: 5px;
+  width: 50%;
+  margin: 0 auto;
+  background-color: rgb(238, 182, 247);
+}
+
+.input-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.input-container label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.input-container input {
+  font-size: 16px;
+  padding: 5px;
+  border: 1px solid rgb(128, 83, 128);
+  border-radius: 3px;
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 10px;
+  background-color: rgb(238, 182, 247);
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#submit-button {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: rgb(128, 83, 128);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submit-button:hover {
+  background-color: rgb(221, 130, 221);
+}
+
+.custom-button {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: rgb(128, 83, 128);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-button:hover {
+  background-color: rgb(221, 130, 221);
+}
